@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/Users/yorkmackbook073/Documents/ShoppingWebsite/src/app/cart/cart.component.css">
+<div class="header">
+  <h3>Shopping Cart</h3>
+</div>
+
+<div class="body">
+  <div>Subtotal: {{subtotal | currency}} </div>
+  <div>Tax: {{taxCost | currency}} </div>
+  <div>Shipping: {{shippingCost | currency}} </div>
+  <div>Total: {{total | currency}} </div>
+</div>
+<br>
+<div *ngFor="let item of cartList">
+  <app-product [item]="item" [inCart]="true"></app-product>
+</div>

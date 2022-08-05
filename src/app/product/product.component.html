@@ -1,0 +1,26 @@
+<div class="product">
+
+  <div class="header">
+    <div>{{item.name}}</div>
+    <div>Rating: {{item.rating}}/5</div>
+  </div>
+
+  <div class="body">
+    <img class="img" src="{{item.imgUrl}}">
+  </div>
+
+  <div class="footer">
+    <div>{{item.price | currency}}</div>
+    <br>
+    <div><button class="button" *ngIf="!inCart" (click)="onAddToCart()">Add to cart</button></div>
+    <div *ngIf="inCart">
+      <input type="number" [ngModel]="item.count" (ngModelChange)="updateCartCount($event)">
+    </div>
+
+  </div>
+
+</div>
+
+
+
+

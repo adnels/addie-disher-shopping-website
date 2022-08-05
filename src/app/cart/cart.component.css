@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: dimgray;
+  padding: 0.5rem;
+  font-family: "Helvetica";
+  color: white;
+  border: 10px solid dimgrey;
+  border-radius: 0.25rem;
+  font-family: "Helvetica";
+  background-color: dimgrey;
+}
+
+.body {
+  font-family: Helvetica;
+}

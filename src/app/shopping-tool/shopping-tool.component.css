@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  padding-left: 12rem;
+  padding-right: 12rem;
+
+}
+
+.body {
+  padding: 1rem 12rem;
+}

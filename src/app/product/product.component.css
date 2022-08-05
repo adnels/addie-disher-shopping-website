@@ -1,0 +1,44 @@
+.product {
+  border: 10px solid dimgrey;
+  border-radius: 0.25rem;
+  font-family: "Helvetica";
+  background-color: white;
+}
+
+.product > .header {
+  display: flex;
+  justify-content: space-between;
+  background-color: dimgray;
+  padding: 0.5rem;
+  font-family: "Helvetica";
+  color: white;
+}
+
+.product > .body {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  font-family: "Helvetica";
+}
+
+.product > .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  font-family: "Helvetica";
+  font-size: 18px;
+  color: dimgrey;
+}
+
+.img {
+  width: 15rem;
+}
+
+.button {
+  font-family: "Helvetica";
+  background-color: white;
+  color: dimgrey;
+  font-size: 18px;
+  border: 5px solid dimgrey;
+}

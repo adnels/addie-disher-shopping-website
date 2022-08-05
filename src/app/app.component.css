@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica";
+  padding: 1rem;
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #696969, #ffffff), repeating-radial-gradient(circle at center center, #696969, #696969, 40px, transparent 80px, transparent 40px);
+  background-blend-mode: multiply;
+  color: white;
+}
+
+* {
+}
