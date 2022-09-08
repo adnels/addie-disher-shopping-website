@@ -41,9 +41,7 @@ export class DataService {
       rating: 3
     }
   ]
-
   private cart: Array<ICartItem> = [];
-
   cart$ = new Subject<Array<ICartItem>>();
 
   constructor() {

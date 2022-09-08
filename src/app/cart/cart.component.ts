@@ -1,6 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import {DataService} from "../data.service";
-import {IShop} from "../interface/IShop";
 import {Subscription} from "rxjs";
 import {ICartItem} from "../ICartItem";
 
